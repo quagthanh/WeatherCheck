@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bookman Old Style", Georgia, serif;
+}
+
+body {
+  background-color: #222;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  max-width: 470px;
+  background-color: rgb(109, 69, 69);
+  margin: 10vh auto 20px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(255, 255, 255, 0.9) 0px 0px 0px 1px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 50px;
+  width: 70%;
+  padding: 10px;
+
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.search img {
+  padding: 7px;
+}
+
+.state {
+  margin-top: 30px;
+}
+
+.detail {
+  display: flex;
+  width: 369px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 300;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 30px;
+  display: none;
+  color: red;
+}
